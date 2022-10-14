@@ -1,0 +1,38 @@
+_id: req_8a659d97fa494c11848eff7868b52526
+type: Request
+parentId: fld_675aa61689ac498d9044a45fe2c7c778
+modified: 1657009246132
+created: 1646195543038
+url: " http://localhost:8080/product/index?size=5&page=1"
+name: all
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters:
+  - id: pair_2aa8288b348a43d7871c740e8c101b01
+    name: page
+    value: " 1"
+    description: ""
+    disabled: true
+  - id: pair_552e05e1fe044b57ae827de27f0c8bf4
+    name: size
+    value: "1"
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f5fa2ef2a20045b88d923508b349af54
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1646195543038
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

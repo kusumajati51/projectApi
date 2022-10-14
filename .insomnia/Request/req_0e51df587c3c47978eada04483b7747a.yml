@@ -1,0 +1,31 @@
+_id: req_0e51df587c3c47978eada04483b7747a
+type: Request
+parentId: fld_84cf513bea5041769c9fb9402f9230e6
+modified: 1665730478892
+created: 1645968764944
+url: "{{ _.base_url }}auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "tester12@email.com",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e9cf578b37a446a681f5062f976c6def
+authentication:
+  type: bearer
+metaSortKey: -1646126967322
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

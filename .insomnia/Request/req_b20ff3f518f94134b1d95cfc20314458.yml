@@ -1,0 +1,33 @@
+_id: req_b20ff3f518f94134b1d95cfc20314458
+type: Request
+parentId: fld_84cf513bea5041769c9fb9402f9230e6
+modified: 1664288830581
+created: 1643365075735
+url: " localhost:8080/auth/signup"
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "tester", 
+    	"email": "tester12@email.com",
+    	"password": "12345678",
+    	"phoneNumber": "08393739073",
+    	"gender": "male"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f197227a35a242b5a0921fb9fd9fc64e
+authentication: {}
+metaSortKey: -1646126967372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_57a9042c0cdc4af4ae34bc7d7dbcb37d
+type: Request
+parentId: fld_1985ab1f19f549579c45750fcb7f8a61
+modified: 1650463039115
+created: 1647323521474
+url: "{{ base_url }}file"
+name: liat
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_9d97a634f6794636b812b35ae2a8fc13
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/jati/Pictures/dev/No_Image_available.webp
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_924a0b9c3aeb424991006dad856452f1
+authentication: {}
+metaSortKey: -1647323521474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

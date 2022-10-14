@@ -1,0 +1,33 @@
+_id: req_118cec7953d243e598a5d75a706720d0
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1664040068974
+created: 1646746683585
+url: "{{ _.base_url }}variant/1 "
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"variant_name": "SilverQueen Milk Chocolate Cashew 30g",
+    	"variant_code": "SLQ-3012-MCC",
+    	"price": 2000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f08cfa2db8524611a4f9fd945890545f
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646746683585
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

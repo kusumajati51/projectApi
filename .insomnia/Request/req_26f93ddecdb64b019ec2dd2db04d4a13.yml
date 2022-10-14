@@ -1,0 +1,23 @@
+_id: req_26f93ddecdb64b019ec2dd2db04d4a13
+type: Request
+parentId: fld_84cf513bea5041769c9fb9402f9230e6
+modified: 1658377006270
+created: 1650198726056
+url: "{{ _.base_url }}auth/select/role"
+name: select role
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1650198726056
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

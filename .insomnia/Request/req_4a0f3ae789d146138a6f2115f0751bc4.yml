@@ -1,0 +1,32 @@
+_id: req_4a0f3ae789d146138a6f2115f0751bc4
+type: Request
+parentId: fld_675aa61689ac498d9044a45fe2c7c778
+modified: 1649852675581
+created: 1649850523217
+url: "{{ _.base_url }}product/update/image"
+name: change Image
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 2,
+    	"product_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87214cfaa8da4b01898902b6467ef677
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1649850523217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

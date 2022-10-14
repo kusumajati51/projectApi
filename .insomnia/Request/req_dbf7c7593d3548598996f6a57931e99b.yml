@@ -1,0 +1,33 @@
+_id: req_dbf7c7593d3548598996f6a57931e99b
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1662182173254
+created: 1646807338670
+url: localhost:8080/variant/index
+name: all
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: size
+    value: "10"
+    id: pair_5b944dfb75904defbd60498f0aea7fb1
+  - name: page
+    value: "1"
+    id: pair_f1dad343b40c49b2a2e870ea09e97259
+  - name: order
+    value: "[]"
+    id: pair_17043ac6f911412b929d1d74713dab95
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1646807338670
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

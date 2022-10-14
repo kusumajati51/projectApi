@@ -1,0 +1,23 @@
+_id: req_9a18e8f978e449c29a3fd25f55e09789
+type: Request
+parentId: fld_675aa61689ac498d9044a45fe2c7c778
+modified: 1649852780855
+created: 1648055053655
+url: "{{ _.base_url }}product/image/1"
+name: find Image
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648055053655
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_34797a84efab4711b9c0cad4dc44746f
+type: Request
+parentId: fld_84cf513bea5041769c9fb9402f9230e6
+modified: 1657011060523
+created: 1648384710048
+url: "{{ _.base_url }}auth/select/role"
+name: loguot
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6InRlc3RlciIsImVtYWlsIjoidGVzdGVyQHRlc3Rlci5jb20iLCJwaG9uZU51bWJlciI6IjA4MzkzNzM5MDczIiwiZ2VuZGVyIjoibWFsZSIsImNyZWF0ZWRBdCI6IjIwMjItMDMtMTZUMTM6MjM6MjUuNDg0WiIsInVwZGF0ZWRBdCI6IjIwMjItMDMtMTZUMTM6MjM6MjUuNDg0WiIsImlhdCI6MTY0ODM4NDcwMCwiZXhwIjoxNjQ4NTU3NTAwfQ.fBCT5ow8XabCpfVpYZdO0Wp8xrT_FLZRIc_5kkD2wQI
+metaSortKey: -1648384710048
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

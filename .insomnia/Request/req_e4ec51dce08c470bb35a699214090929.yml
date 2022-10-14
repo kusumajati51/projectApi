@@ -1,0 +1,34 @@
+_id: req_e4ec51dce08c470bb35a699214090929
+type: Request
+parentId: fld_675aa61689ac498d9044a45fe2c7c778
+modified: 1662183309462
+created: 1646058427145
+url: localhost:8080/product
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"product_name": "Tanggo",
+    	"product_code": "TNG-1324-AGO",
+    	"price": 2000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_79f28095192d4dc68614d3fd3b406780
+authentication:
+  type: bearer
+  token: "{{token}}"
+  disabled: false
+metaSortKey: -1646058427145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

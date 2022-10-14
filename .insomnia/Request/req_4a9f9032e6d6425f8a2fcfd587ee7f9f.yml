@@ -1,0 +1,39 @@
+_id: req_4a9f9032e6d6425f8a2fcfd587ee7f9f
+type: Request
+parentId: fld_675aa61689ac498d9044a45fe2c7c778
+modified: 1649699415703
+created: 1647445507366
+url: "{{ base_url }}product/image"
+name: create_image
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_057978c3f7cf444c92f2fb46de995d76
+      name: product_id
+      value: "6"
+      description: ""
+    - id: pair_8da6865bf65b499ead81ebf8ab8a791a
+      name: image
+      value: ""
+      description: ""
+      type: file
+      disabled: false
+      fileName: /home/jati/Pictures/dev/tangoo.jpeg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_fa901f08828c4e28a4617ab25c57bfb3
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1647445507366
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

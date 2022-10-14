@@ -1,0 +1,38 @@
+_id: req_ff57909937fc45c9ab460a2f1159aef6
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1649788065930
+created: 1647513481875
+url: "{{ base_url }}variant/create/image"
+name: variant_image
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_64d7e3026b67450991f5f4710f8e0ace
+      name: variant_id
+      value: "1"
+      description: ""
+    - id: pair_da498f7f6fde45f2a8e78a070c8fdfb1
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/jati/Pictures/dev/4b7bcdc0c7060f5d513f4793cb0e1204.jpeg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_41af3df20cd848fc9893673b55b1e235
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6InRlc3RlciIsImVtYWlsIjoidGVzdGVyQHRlc3Rlci5jb20iLCJwaG9uZU51bWJlciI6IjA4MzkzNzM5MDczIiwiZ2VuZGVyIjoibWFsZSIsImNyZWF0ZWRBdCI6IjIwMjItMDMtMTZUMTM6MjM6MjUuNDg0WiIsInVwZGF0ZWRBdCI6IjIwMjItMDMtMTZUMTM6MjM6MjUuNDg0WiIsImlhdCI6MTY0ODM4NDcwMCwiZXhwIjoxNjQ4NTU3NTAwfQ.fBCT5ow8XabCpfVpYZdO0Wp8xrT_FLZRIc_5kkD2wQI
+metaSortKey: -1647513481875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

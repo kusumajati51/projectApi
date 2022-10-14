@@ -1,0 +1,32 @@
+_id: req_dff7801d770d41238c1aa7ed361bd7b2
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1662183259702
+created: 1649852672500
+url: "{{ _.base_url }}variant/update/image"
+name: change Image
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+    	"variant_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87214cfaa8da4b01898902b6467ef677
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648113604388
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

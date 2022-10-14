@@ -1,0 +1,181 @@
+_id: req_1770aa91340c45ffa5cbdbc7e3d8efbf
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1658378169851
+created: 1649852798149
+url: "{{ _.base_url }}variant/image/1"
+name: find Image
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"noIdentitas": "3374110904640001",
+    	"userId": "prionald.k.effendi@danamerdeka.co.id",
+    	"userName": "DANA MERDEKA",
+    	"inquiryReason": "2 - Monitor Outstanding Borrower",
+    	"memberId": "810025",
+    	"memberName": "DANA MERDEKA",
+    	"refferenceId": "Monitor Outstanding Borrower",
+    	"inquiryDate": "2022-04-14",
+    	"status": "Found",
+    	"pinjaman": [
+    		{
+    			"id_penyelenggara": "4",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "RAHARDJO",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2020-06-21",
+    			"tgl_penyaluran_dana": "2020-06-21",
+    			"nilai_pendanaan": 300000,
+    			"tgl_pelaporan_data": "2021-07-19",
+    			"sisa_pinjaman_berjalan": 0,
+    			"tgl_jatuh_tempo_pinjaman": "2020-07-12",
+    			"kualitas_pinjaman": "1",
+    			"dpd_terakhir": 0,
+    			"dpd_max": 270,
+    			"status_pinjaman": "L",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Lancar (<30 hari)",
+    			"status_pinjaman_ket": "Fully Paid"
+    		},
+    		{
+    			"id_penyelenggara": "4",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "RAHARDJO",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2020-07-21",
+    			"tgl_penyaluran_dana": "2020-07-21",
+    			"nilai_pendanaan": 600000,
+    			"tgl_pelaporan_data": "2021-07-19",
+    			"sisa_pinjaman_berjalan": 0,
+    			"tgl_jatuh_tempo_pinjaman": "2020-08-11",
+    			"kualitas_pinjaman": "1",
+    			"dpd_terakhir": 2,
+    			"dpd_max": 270,
+    			"status_pinjaman": "L",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Lancar (<30 hari)",
+    			"status_pinjaman_ket": "Fully Paid"
+    		},
+    		{
+    			"id_penyelenggara": "4",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "RAHARDJO",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2020-09-11",
+    			"tgl_penyaluran_dana": "2020-09-11",
+    			"nilai_pendanaan": 728155,
+    			"tgl_pelaporan_data": "2020-10-02",
+    			"sisa_pinjaman_berjalan": 0,
+    			"tgl_jatuh_tempo_pinjaman": "2020-10-02",
+    			"kualitas_pinjaman": "1",
+    			"dpd_terakhir": 0,
+    			"dpd_max": 0,
+    			"status_pinjaman": "L",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Lancar (<30 hari)",
+    			"status_pinjaman_ket": "Fully Paid"
+    		},
+    		{
+    			"id_penyelenggara": "2",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "Eni widiyaningrum",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2021-04-03",
+    			"tgl_penyaluran_dana": "2021-04-03",
+    			"nilai_pendanaan": 1200000,
+    			"tgl_pelaporan_data": "2021-05-02",
+    			"sisa_pinjaman_berjalan": 0,
+    			"tgl_jatuh_tempo_pinjaman": "2021-05-03",
+    			"kualitas_pinjaman": "1",
+    			"dpd_terakhir": 0,
+    			"dpd_max": 0,
+    			"status_pinjaman": "L",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Lancar (<30 hari)",
+    			"status_pinjaman_ket": "Fully Paid"
+    		},
+    		{
+    			"id_penyelenggara": "2",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "Eni widiyaningrum",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2021-05-08",
+    			"tgl_penyaluran_dana": "2021-05-08",
+    			"nilai_pendanaan": 2500000,
+    			"tgl_pelaporan_data": "2021-10-06",
+    			"sisa_pinjaman_berjalan": 2500000,
+    			"tgl_jatuh_tempo_pinjaman": "2021-06-08",
+    			"kualitas_pinjaman": "3",
+    			"dpd_terakhir": 121,
+    			"dpd_max": 121,
+    			"status_pinjaman": "W",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Macet (>90)",
+    			"status_pinjaman_ket": "Write-Off"
+    		},
+    		{
+    			"id_penyelenggara": "3",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "RAHARDJO",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "000000000000000",
+    			"tgl_perjanjian_borrower": "2021-06-17",
+    			"tgl_penyaluran_dana": "2021-06-17",
+    			"nilai_pendanaan": 1200000,
+    			"tgl_pelaporan_data": "2021-10-14",
+    			"sisa_pinjaman_berjalan": 1200000,
+    			"tgl_jatuh_tempo_pinjaman": "2021-07-15",
+    			"kualitas_pinjaman": "3",
+    			"dpd_terakhir": 91,
+    			"dpd_max": 91,
+    			"status_pinjaman": "W",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Macet (>90)",
+    			"status_pinjaman_ket": "Write-Off"
+    		},
+    		{
+    			"id_penyelenggara": "4",
+    			"jenis_pengguna": 1,
+    			"nama_borrower": "RAHARDJO",
+    			"no_identitas": "3374110904640001",
+    			"no_npwp": "",
+    			"tgl_perjanjian_borrower": "2020-10-02",
+    			"tgl_penyaluran_dana": "2020-10-02",
+    			"nilai_pendanaan": 728155,
+    			"tgl_pelaporan_data": "2021-07-19",
+    			"sisa_pinjaman_berjalan": 728155,
+    			"tgl_jatuh_tempo_pinjaman": "2020-10-23",
+    			"kualitas_pinjaman": "2",
+    			"dpd_terakhir": 90,
+    			"dpd_max": 90,
+    			"status_pinjaman": "W",
+    			"jenis_pengguna_ket": "Individual",
+    			"kualitas_pinjaman_ket": "Tidak Lancar (30 sd 90 hari)",
+    			"status_pinjaman_ket": "Write-Off"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_857420fbab0d4fe0a8a42a0e961a5c9d
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1647160410272.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

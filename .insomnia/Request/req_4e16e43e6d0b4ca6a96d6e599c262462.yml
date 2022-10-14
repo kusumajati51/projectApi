@@ -1,0 +1,35 @@
+_id: req_4e16e43e6d0b4ca6a96d6e599c262462
+type: Request
+parentId: fld_2d32c0fb13684d0687c6c341b5872f9d
+modified: 1648113714767
+created: 1648113604338
+url: "{{ _.base_url }}variant/create/image"
+name: create_image
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: variant_id
+      value: "1"
+      id: pair_d1586e0e526d49179146e74e5f9e4aaa
+    - id: pair_90801851b6ed4cc09a5bf9264ae3fd9c
+      name: image
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/jati/Pictures/dev/3401523_7a338222-0f58-4e76-a08d-8d80056429b8_700_700.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_4c0cb3333a70406280ca7383eafae565
+authentication: {}
+metaSortKey: -1648113604338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
